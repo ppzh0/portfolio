@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    /* outline: 1px solid lightblue; */
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+.info {
+    font-family: 'Ubuntu', serif;
+}
+
+.box {
+    width: 800px;
+    font-family: 'Zen Maru Gothic', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2.subtitle {
+    min-width: 100%;
+    text-align: left;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.about-me {
+    text-align: center;
+    width: 678px;
+}
+
+div.social-link {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div#project {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
