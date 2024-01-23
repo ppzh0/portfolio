@@ -22,6 +22,10 @@ body {
     align-items: center;
 }
 
+.mt-big {
+    margin-top: 10%;
+}
+
 h2.subtitle {
     min-width: 100%;
     text-align: left;
@@ -36,7 +40,7 @@ h2.subtitle {
     width: 678px;
 }
 
-div.social-link {
+div.flex-box {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -48,7 +52,7 @@ div#project {
     gap: 1em;
 }
 
-.CAT {
+.cat {
     width: 100%;
     height: auto;
     border-radius: 12px;
