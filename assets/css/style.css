@@ -2,58 +2,11 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    font-family: "Zen Maru Gothic", sans-serif;
     /* outline: 1px solid lightblue; */
 }
 
-body {
-    display: grid;
-    place-items: center;
-}
-
-.info {
-    font-family: 'Ubuntu', serif;
-}
-
-.box {
-    width: 800px;
-    font-family: 'Zen Maru Gothic', serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.mt-big {
-    margin-top: 10%;
-}
-
-h2.subtitle {
-    min-width: 100%;
-    text-align: left;
-}
-
-.profile-picture {
-    border-radius: 50%;
-}
-
-.about-me {
-    text-align: center;
-    width: 678px;
-}
-
-div.flex-box {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-div#project {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1em;
-}
-
-.cat {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
+code {
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
 }
