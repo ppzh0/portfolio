@@ -4,4 +4,4 @@ After 3 years of learning and experimenting progress, I have finally made a port
 - about me
 - projects
 - contact
-- cat :3
+<!-- - cat :3 -->
