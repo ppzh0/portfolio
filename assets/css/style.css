@@ -6,18 +6,26 @@
     /* outline: 1px solid lightblue; */
 }
 
+abbr {
+    text-decoration: none;
+}
+
 code {
     font-family: "Fira Code", monospace;
     font-weight: 400;
 }
 
-:any-link {
+a:any-link {
     text-decoration: none;
 }
 
 a:any-link:hover {
     color: rgb(0, 100, 100);
     outline: solid 1px black;
+}
+
+abbr:hover {
+    text-decoration: dashed underline;
 }
 
 body {
@@ -58,6 +66,15 @@ body {
 }
 
 .grids section:hover {
-    box-shadow: 0 0 2em 8px rgba(0, 255, 255, 0.45);
+    box-shadow: 0 0 2em 8px rgba(0, 255, 255, 0.45), inset 0 0 1em 4px rgba(0, 255, 255, 0.35);
     scale: 1.05;
+}
+
+@media screen and (max-width: 480px) {
+    .display {
+        font-size: 2.8em;
+    }
+    .grids {
+        grid-template-columns: 1fr 1fr;
+    }
 }
