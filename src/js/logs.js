@@ -1,0 +1,1 @@
+console.log("Hi there! Why did you open console?");
